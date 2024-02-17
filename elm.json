@@ -1,19 +1,19 @@
 {
     "type": "package",
-	"name": "kudzu-forest/elm-random-pool",
-	"summary": "enables fast and precisely controled random picking up from collection of data.",
-	"version": "1.0.0",
+    "name": "kudzu-forest/elm-random-pool",
+    "summary": "enables fast and precisely controled random picking up from collection of data.",
+    "license": "MIT",
+    "version": "1.0.0",
     "exposed-modules": [
         "RandomPool"
     ],
     "elm-version": "0.19.1 <= v < 0.20.0",
     "dependencies": {
-            "elm/core": "1.0.5",
-            "elm/random": "1.0.0",
-            "kudzu-forest/elm-constant-time-queue": "1.4.0",
-            "kudzu-forest/elm-random-tree": "1.0.0",
-            "kudzu-forest/elm-wide-float": "2.0.1"
+        "elm/core": "1.0.5 <= v < 2.0.0",
+        "elm/random": "1.0.0 <= v < 2.0.0",
+        "kudzu-forest/elm-constant-time-queue": "1.4.0 <= v < 2.0.0",
+        "kudzu-forest/elm-random-tree": "1.0.1 <= v < 2.0.0",
+        "kudzu-forest/elm-wide-float": "2.0.1 <= v < 3.0.0"
     },
-    "test-dependencies": {
-    }
+    "test-dependencies": {}
 }
